@@ -143,3 +143,34 @@ class advancedClone {
 	}
 }
 
+class ifChange {
+	@SuppressWarnings("unused")
+	public void change() {
+		if(true && 1 == 6) {
+			int test6 = 0;
+			int test5 = 1 + test6 * test6;
+		}
+		
+		if(true) {
+			int test6 = 0;
+			int test5 = 1 + test6 * test6;
+		}
+	}
+}
+
+class codeSwap {
+	@SuppressWarnings("unused")
+	public void swap() {
+		if(true) {
+			int test6 = 0;
+			int test5 = 1 + 1 * 1;
+		}
+		
+		if(true) {
+			int test5 = 1 + 1 * 1;
+			int test6 = 0;
+		}
+	}
+}
+
+
