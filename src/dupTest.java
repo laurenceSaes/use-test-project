@@ -9,6 +9,11 @@ class dupTest {
 	
 	public void testM2() {			//Some test comment
 /*test*/int i1 = 1 + 1;
+/*
+ * 
+ * Test
+ * 
+ */
  /*est*/int i2 = 1 + 1 * 2;/*test*/
 		/*
 		 * test
